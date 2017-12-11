@@ -26,7 +26,6 @@ public class LoginTest {
 //  driver.findElement(By.cssSelector("#login > button")).click();
     driver.findElement(By.cssSelector("#login button")).click();
 
-
     assertTrue(driver.findElement(By.cssSelector(".flash.success")).isDisplayed(),"Login was not success");
 
    }
