@@ -25,7 +25,7 @@ public class LoginTest {
     driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
 //  driver.findElement(By.cssSelector("#login > button")).click();
     driver.findElement(By.cssSelector("#login button")).click();
-
+//--This is changes
     assertTrue(driver.findElement(By.cssSelector(".flash.success")).isDisplayed(),"Login was not success");
 
    }
